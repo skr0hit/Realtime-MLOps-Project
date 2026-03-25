@@ -1,0 +1,4 @@
+[core]
+    remote = dvcs3remote
+['remote "dvcs3remote"']
+    url = s3://mlops-bucket-created-for-dvc
