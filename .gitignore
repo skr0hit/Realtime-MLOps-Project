@@ -1,0 +1,29 @@
+data/
+models/*.pkl
+*.pyc
+__pycache__/
+.dvc/cache
+.dvc/tmp
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.venv
